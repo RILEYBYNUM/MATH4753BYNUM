@@ -2,4 +2,5 @@
 
 export(mybin)
 export(myfirstfunction)
+export(myncurve)
 export(myplot)
