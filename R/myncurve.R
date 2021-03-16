@@ -16,6 +16,7 @@ myncurve = function(mu, sigma, a){
   y1 = dnorm(x1, mu, sigma)
   polygon(c(-1, x1, a), c(0, y1, 0), col = "RED")
   #Calculating the area
-  area1 = round(pnorm(a, mu, sigma), 4)
+  area = round(pnorm(a, mu, sigma), 4)
+  text( x = 2, y = 0.3, paste("Area = ", area, sep = ""))
 
 }
