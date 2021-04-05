@@ -1,8 +1,9 @@
-#' @title myboot2
+
+#' Title
 #'
 #' @param iter number of iterations
-#' @param x size
-#' @param fun stat you want to find
+#' @param x sample set
+#' @param fun function you want to test
 #' @param alpha
 #' @param cx
 #' @param ...
