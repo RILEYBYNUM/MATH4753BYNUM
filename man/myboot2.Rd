@@ -2,16 +2,16 @@
 % Please edit documentation in R/myboot2.R
 \name{myboot2}
 \alias{myboot2}
-\title{myboot2}
+\title{Title}
 \usage{
 myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 }
 \arguments{
 \item{iter}{number of iterations}
 
-\item{x}{size}
+\item{x}{sample set}
 
-\item{fun}{stat you want to find}
+\item{fun}{function you want to test}
 
 \item{...}{}
 }
@@ -19,5 +19,5 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 }
 \description{
-myboot2
+Title
 }
